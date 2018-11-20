@@ -62,6 +62,57 @@ vagrant ssh
 cd /vagrant/
 ```
 
+- Run the following command to download all plugins needed by the Terraform configuration
+
+```
+terraform init
+```
+
+- Run the following command to see what will be provisioned by your configuration
+
+```
+terraform plan
+```
+
+- Run the following command to provision the infrastructure described in your configuration
+
+```
+terraform apply
+```
+
+
+## In order to perform test with kitchen-terraform
+
+- Clone this repository
+
+```
+git clone https://github.com/firedot/terraform_custom_plugin_kitchen_v0.2.git
+```
+
+- Go in the cloned repository directory
+
+```
+cd terraform_custom_plugin_kitchen_v0.2
+```
+
+- Run the following command to spin up the VM
+
+```
+vagrant up
+```
+
+- After the previous command finishes, run the following command to connect to the machine
+
+```
+vagrant ssh
+```
+
+- Run the next command to go to the directory where the Kitchen configuration file is located:
+
+```
+cd /vagrant/
+```
+
 - Run the following command to execute the tests: 
 
 ```
