@@ -11,7 +11,6 @@ This repository contains a testing environment for previously built custom provi
 
 ## TO-DO
 
-- Create Kitchen configuration that will test if the custom provider is working properply
 - Create instructions on how to use this repository
 
 ## DONE
@@ -20,3 +19,44 @@ This repository contains a testing environment for previously built custom provi
 - Create a script that provisions needed software to the VM
 - Add a terraform custom plugin to the repository
 - Create a Terraform configuration that uses the custom plugin
+- Create Kitchen configuration that will test if the custom provider is working properply
+
+
+
+## HOW TO USE THIS REPOSITORY
+
+- Clone this repository
+
+```
+git clone 
+```
+
+- Go in the cloned repository directory
+
+```
+cd 
+```
+
+- Run the following command to spin up the VM
+
+```
+vagrant up
+```
+
+- After the previous command finishes, run the following command to connect to the machine
+
+```
+vagrant ssh
+```
+
+- Run the next command to go to the directory where the Kitchen configuration file is located:
+
+```
+cd /vagrant/
+```
+
+- Run the following command to execute the tests: 
+
+```
+kitchen test
+```
