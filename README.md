@@ -4,8 +4,11 @@ Kitchen test for a custom terraform provider
 
 # Prerequisites
 
-- You should have Oracle VirtualBox installed
+- You should have Oracle VirtualBox installed. 
+  - You could get a suitable version [here](https://www.virtualbox.org/wiki/Downloads)
+  
 - You should have Vagrant installed
+  - You could get a suitable version [here](https://www.vagrantup.com/downloads.html)
 
 # What is this repo about
 
