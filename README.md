@@ -35,13 +35,13 @@ This repository contains a testing environment for previously built custom provi
 - Clone this repository
 
 ```
-git clone https://github.com/firedot/terraform_custom_plugin_kitchen_v0.2.git
+git clone https://github.com/firedot/terraform_custom_plugin_kitchen_2.git
 ```
 
 - Go in the cloned repository directory
 
 ```
-cd terraform_custom_plugin_kitchen_v0.2
+cd terraform_custom_plugin_kitchen_2
 ```
 
 - Run the following command to spin up the VM
@@ -86,13 +86,13 @@ terraform apply
 - Clone this repository
 
 ```
-git clone https://github.com/firedot/terraform_custom_plugin_kitchen_v0.2.git
+git clone https://github.com/firedot/terraform_custom_plugin_kitchen_2.git
 ```
 
 - Go in the cloned repository directory
 
 ```
-cd terraform_custom_plugin_kitchen_v0.2
+cd terraform_custom_plugin_kitchen_2
 ```
 
 - Run the following command to spin up the VM
