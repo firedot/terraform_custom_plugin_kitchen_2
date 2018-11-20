@@ -60,3 +60,7 @@ cd /vagrant/
 ```
 kitchen test
 ```
+
+- Below you could see an example of a successful test: 
+
+![Alt text](pics/success.png?raw=true "Success")
