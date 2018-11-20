@@ -11,7 +11,6 @@ This repository contains a testing environment for previously built custom provi
 
 ## TO-DO
 
-- Create instructions on how to use this repository
 
 ## DONE
 
@@ -20,6 +19,7 @@ This repository contains a testing environment for previously built custom provi
 - Add a terraform custom plugin to the repository
 - Create a Terraform configuration that uses the custom plugin
 - Create Kitchen configuration that will test if the custom provider is working properply
+- Create instructions on how to use this repository
 
 
 
